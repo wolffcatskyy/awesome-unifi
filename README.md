@@ -19,7 +19,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [Docker Images](#docker-images)
 - [Monitoring & Metrics](#monitoring--metrics)
   - [Prometheus & Grafana](#prometheus--grafana)
-  - [InfluxDB](#influxdb)
   - [Zabbix](#zabbix)
   - [Other Monitoring](#other-monitoring)
 - [Home Automation](#home-automation)
@@ -62,9 +61,9 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ### Node.js / JavaScript
 
-- [jens-maus/node-unifi](https://github.com/jens-maus/node-unifi) - NodeJS class for querying/controlling a UniFi-Controller (UDM-Pro, UDM-SE, UDM, UDR, UDW, CloudKey).
+- [jens-maus/node-unifi](https://github.com/jens-maus/node-unifi) - Node.js class for querying/controlling a UniFi-Controller (UDM-Pro, UDM-SE, UDM, UDR, UDW, CloudKey).
 - [delian/node-unifiapi](https://github.com/delian/node-unifiapi) - UniFi API ported to Node.JS.
-- [thib3113/unifi-client](https://github.com/thib3113/unifi-client) - NodeJs client for Unifi products.
+- [thib3113/unifi-client](https://github.com/thib3113/unifi-client) - Node.js client for Unifi products.
 
 ### Go
 
@@ -82,7 +81,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 - [KoenZomers/UniFiApi](https://github.com/KoenZomers/UniFiApi) - API in .NET 9 to fetch data from an on premises Ubiquiti UniFi Controller.
 - [schwoi/UnifiClient](https://github.com/schwoi/UnifiClient) - .NET Standard wrapper library for the Ubiquiti Unifi Controller.
-- [dotMorten/UnifiClient](https://github.com/dotMorten/UnifiClient) - A .NET Library for the Ubiquity Unifi REST and Websocket APIs.
+- [dotMorten/UnifiClient](https://github.com/dotMorten/UnifiClient) - A .NET Library for the Ubiquity Unifi REST and WebSocket APIs.
 
 ### Ruby
 
@@ -110,7 +109,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [jacobalberty/unifi-docker](https://github.com/jacobalberty/unifi-docker) - Unifi Docker files.
 - [linuxserver/docker-unifi-network-application](https://github.com/linuxserver/docker-unifi-network-application) - LinuxServer.io Docker image for UniFi Network Application.
 - [goofball222/unifi](https://github.com/goofball222/unifi) - UniFi Docker Container.
-- [Nico640/docker-unms](https://github.com/Nico640/docker-unms) - All-in-one docker image for Ubiquiti UISP (formerly UNMS) - supports x86_64 and ARM.
+- [Nico640/docker-unms](https://github.com/Nico640/docker-unms) - All-in-one Docker image for Ubiquiti UISP (formerly UNMS) - supports x86_64 and ARM.
 - [pducharme/UniFi-Video-Controller](https://github.com/pducharme/UniFi-Video-Controller) - Docker for Unifi-Video Controller.
 - [GiuseppeGalilei/Unifi-Network-Application](https://github.com/GiuseppeGalilei/Unifi-Network-Application) - Easily deploy Unifi Network Application on Docker.
 - [jcberthon/unifi-docker](https://github.com/jcberthon/unifi-docker) - Unifi Controller Docker image and compose.
@@ -138,7 +137,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ### Other Monitoring
 
-- [tusc/ntopng-udm](https://github.com/tusc/ntopng-udm) - ntopng Docker image for the UDM base and UDM pro.
+- [tusc/ntopng-udm](https://github.com/tusc/ntopng-udm) - Ntopng Docker image for the UDM base and UDM pro.
 - [unifianalyzer/recommender](https://github.com/unifianalyzer/recommender) - Recommends tuning for Unifi access points.
 - [unpoller/datadogunifi](https://github.com/unpoller/datadogunifi) - UniFi Poller Output Plugin for DataDog.
 
@@ -184,7 +183,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [kk7ds/luvs](https://github.com/kk7ds/luvs) - Lightweight Unifi Video Server.
 - [hjdhjd/unifi-access](https://github.com/hjdhjd/unifi-access) - A nearly complete implementation of the UniFi Access API.
 - [selfhostedhome/unifi-video-gif-mqtt](https://github.com/selfhostedhome/unifi-video-gif-mqtt) - Watch your UniFi Video directory for new videos, convert to gif and notify over mqtt.
-- [bluewalk/unifi-udm-protect-mqtt](https://github.com/bluewalk/unifi-udm-protect-mqtt) - A docker container to parse UniFi protect eventlog and publish motion events to MQTT.
+- [bluewalk/unifi-udm-protect-mqtt](https://github.com/bluewalk/unifi-udm-protect-mqtt) - A Docker container to parse UniFi protect eventlog and publish motion events to MQTT.
 - [bdraco/pyunifiprotect](https://github.com/bdraco/pyunifiprotect) - Python Wrapper for the Unifi Protect API.
 
 ## UniFi Access
@@ -244,7 +243,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ## Backup Tools
 
 - [zhangyoufu/unifi-backup-decrypt](https://github.com/zhangyoufu/unifi-backup-decrypt) - Decrypt UniFi Network Application backup (.unf to .zip).
-- [psitem/edgerouter-backup](https://github.com/psitem/edgerouter-backup) - EdgeRouter to git repo backup scripts.
+- [psitem/edgerouter-backup](https://github.com/psitem/edgerouter-backup) - EdgeRouter to Git repo backup scripts.
 
 ## CLI Tools
 
@@ -276,14 +275,14 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [davidjenni/udm-pro-network](https://github.com/davidjenni/udm-pro-network) - Unifi UDM-Pro prosumer network configuration.
 - [cdchris12/UDM-DNS-Fix](https://github.com/cdchris12/UDM-DNS-Fix) - A simple script to provide basic DHCP hostname resolution in the latest UniFi Dream Machine Pro firmware.
 - [blackjid/inadyn-cloudflare](https://github.com/blackjid/inadyn-cloudflare) - Cloudflare Dynamic DNS backend for Inadyn - for use with Unifi Dream Machine / Pro.
-- [scyto/multicast-relay](https://github.com/scyto/multicast-relay) - multicast-relay docker for UniFi Dream Machines.
+- [scyto/multicast-relay](https://github.com/scyto/multicast-relay) - Multicast-relay Docker for UniFi Dream Machines.
 - [IngmarStein/unifi-sonos-doc](https://github.com/IngmarStein/unifi-sonos-doc) - How to configure your UniFi network for Sonos.
 - [esmith443/Verizon-ONT-Bypass](https://github.com/esmith443/Verizon-ONT-Bypass) - Unifi UDM Pro Iszo XPON UNO Verizon FiOS.
 - [ddominet/UDMPRO-samba](https://github.com/ddominet/UDMPRO-samba) - UDM-PRO drive bay as a network drive.
 - [dlk3/udm-hacks](https://github.com/dlk3/udm-hacks) - Hacks for Unifi Dream Machine (UDM) Pro.
 - [kalenarndt/udmp-jumbo-frames](https://github.com/kalenarndt/udmp-jumbo-frames) - Shell script to configure and monitor jumbo frame configuration on the UDM Pro.
 - [xpherism/udm-proxy](https://github.com/xpherism/udm-proxy) - Caddy proxy for Ubiquiti UDM Pro.
-- [whi-tw/macvlan-unifios](https://github.com/whi-tw/macvlan-unifios) - macvlan kernel module for UniFi OS devices.
+- [whi-tw/macvlan-unifios](https://github.com/whi-tw/macvlan-unifios) - Macvlan kernel module for UniFi OS devices.
 - [johnstonjs/unifios-utils](https://github.com/johnstonjs/unifios-utils) - UniFi OS Utilities.
 
 ## EdgeRouter / EdgeOS
