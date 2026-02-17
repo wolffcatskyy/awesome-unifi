@@ -62,7 +62,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ### Node.js / JavaScript
 
 - [jens-maus/node-unifi](https://github.com/jens-maus/node-unifi) - Node.js class for querying/controlling a UniFi-Controller (UDM-Pro, UDM-SE, UDM, UDR, UDW, CloudKey).
-- [delian/node-unifiapi](https://github.com/delian/node-unifiapi) - UniFi API ported to Node.JS.
+- [delian/node-unifiapi](https://github.com/delian/node-unifiapi) - UniFi API ported to Node.js.
 - [thib3113/unifi-client](https://github.com/thib3113/unifi-client) - Node.js client for Unifi products.
 
 ### Go
