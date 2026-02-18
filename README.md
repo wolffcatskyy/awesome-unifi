@@ -39,7 +39,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [EdgeRouter / EdgeOS](#edgerouter--edgeos)
 - [MCP Servers](#mcp-servers)
 - [Guides & Documentation](#guides--documentation)
-- [Other Tools](#other-tools)
 
 ---
 
@@ -55,7 +54,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ### Python
 
 - [ubiquiti-community/py-unifi](https://github.com/ubiquiti-community/py-unifi) - Python Unifi API Client.
-- [calmh/unifi-api](https://github.com/calmh/unifi-api) - An API towards the Ubiquity Networks UniFi controller (unmaintained).
 - [tnware/unifi-controller-api](https://github.com/tnware/unifi-controller-api) - A Python client library for interacting with Ubiquiti UniFi Network Controllers.
 - [delian/pythonUnifiAPI](https://github.com/delian/pythonUnifiAPI) - Python3 port of UniFi-API-Browser API with small extensions.
 
@@ -103,6 +101,8 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [veteranbv/unifi-client-updater](https://github.com/veteranbv/unifi-client-updater) - UniFi client updater tool.
 - [scyto/docker-UnifiBrowser](https://github.com/scyto/docker-UnifiBrowser) - Docker for UniFi API Browser.
 - [ZSamuels28/UnifiClientCheck-Docker](https://github.com/ZSamuels28/UnifiClientCheck-Docker) - Monitor UniFi networks for new devices with Telegram or Ntfy alerts.
+- [Unifi-Tools/UFiber.Configurator](https://github.com/Unifi-Tools/UFiber.Configurator) - UFiber Configuration Tool.
+- [merlijntishauser/unifi-network-maps](https://github.com/merlijntishauser/unifi-network-maps) - Creates markdown/mermaid network maps using the UniFi API.
 
 ## Docker Images
 
@@ -140,6 +140,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [tusc/ntopng-udm](https://github.com/tusc/ntopng-udm) - Ntopng Docker image for the UDM base and UDM pro.
 - [unifianalyzer/recommender](https://github.com/unifianalyzer/recommender) - Recommends tuning for Unifi access points.
 - [unpoller/datadogunifi](https://github.com/unpoller/datadogunifi) - UniFi Poller Output Plugin for DataDog.
+- [carverauto/serviceradar](https://github.com/carverauto/serviceradar) - Zero-trust open-source network management and observability platform with UniFi support.
 
 ## Home Automation
 
@@ -172,6 +173,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [salanki/unifi-mqtt](https://github.com/salanki/unifi-mqtt) - WLAN Association / Disassociation events from UniFi Controller to MQTT publisher.
 - [bramstroker/UnifiMqttPublisher](https://github.com/bramstroker/UnifiMqttPublisher) - Publishes Unifi controller and AP statistics to a MQTT broker.
 - [dcramer/unifi-mqtt](https://github.com/dcramer/unifi-mqtt) - UniFi to MQTT bridge.
+- [jollyjinx/unifi2mqtt](https://github.com/jollyjinx/unifi2mqtt) - Publish UniFi device and client information to MQTT.
 
 ## UniFi Protect
 
@@ -179,7 +181,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [ep1cman/unifi-protect-backup](https://github.com/ep1cman/unifi-protect-backup) - Python tool to backup unifi event clips in realtime.
 - [petergeneric/unifi-protect-remux](https://github.com/petergeneric/unifi-protect-remux) - Converts Ubiquiti's proprietary .ubv files into standard MP4 files.
 - [yuppity/unifi-video-api](https://github.com/yuppity/unifi-video-api) - Python API for UniFi Video.
-- [mzac/unifi-video-mqtt](https://github.com/mzac/unifi-video-mqtt) - UniFi Video to MQTT bridge.
 - [kk7ds/luvs](https://github.com/kk7ds/luvs) - Lightweight Unifi Video Server.
 - [hjdhjd/unifi-access](https://github.com/hjdhjd/unifi-access) - A nearly complete implementation of the UniFi Access API.
 - [selfhostedhome/unifi-video-gif-mqtt](https://github.com/selfhostedhome/unifi-video-gif-mqtt) - Watch your UniFi Video directory for new videos, convert to gif and notify over mqtt.
@@ -214,8 +215,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [wolffcatskyy/crowdsec-unifi-parser](https://github.com/wolffcatskyy/crowdsec-unifi-parser) - CrowdSec parsers and iptables LOG rules for UniFi Dream Machines.
 - [LordOfPolls/Unifi-Rampart](https://github.com/LordOfPolls/Unifi-Rampart) - Automated threat intelligence for UniFi firewalls - syncs IP lists from Spamhaus, Firehol, abuse.ch.
 - [trek-e/unifi-security-report](https://github.com/trek-e/unifi-security-report) - A containerized service that monitors UniFi network logs and delivers plain-English reports.
-- [puzzlepeaches/Log4jUnifi](https://github.com/puzzlepeaches/Log4jUnifi) - Exploiting CVE-2021-44228 in Unifi Network Application for remote code execution.
-- [ShrikiSilence/SilenceTheLAN](https://github.com/shrisha/SilenceTheLAN) - iOS app to manage UniFi Firewall policies created for kids' downtime.
+- [shrisha/SilenceTheLAN](https://github.com/shrisha/SilenceTheLAN) - iOS app to manage UniFi Firewall policies created for kids' downtime.
 - [coolcat1575/netwatcher](https://github.com/coolcat1575/netwatcher) - Monitor your network for unknown MAC addresses using data from UniFi.
 
 ## DNS & DDNS
@@ -302,6 +302,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [darkxst/erx-migration](https://github.com/darkxst/erx-migration) - Openwrt: Edgerouter X migration scripts for installing or upgrading to Openwrt.
 - [neilalexander/vyatta-cjdns](https://github.com/neilalexander/vyatta-cjdns) - A cjdns package for Ubiquiti EdgeOS and VyOS.
 - [amarcu5/EdgeOS-Blacklist](https://github.com/amarcu5/EdgeOS-Blacklist) - Automatically updates IP blacklist for EdgeOS (supports IPv4 and IPv6).
+- [sowbug/mkeosimg](https://github.com/sowbug/mkeosimg) - Make a Ubiquiti EdgeOS image from a system tarball.
 
 ## MCP Servers
 
@@ -315,15 +316,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [beezly/unifi-apis](https://github.com/beezly/unifi-apis) - UniFi Network and Protect API OpenAPI specifications.
 - [ubiquiti-community/unifi-api](https://github.com/ubiquiti-community/unifi-api) - OpenAPI Definition for Unifi Controller API.
 - [MinisculeGirraffe/Tailscale-UDMPro](https://github.com/MinisculeGirraffe/Tailscale-UDMPro) - Guide to running Tailscale on a UDM(Pro).
-
-## Other Tools
-
-- [Unifi-Tools/UFiber.Configurator](https://github.com/Unifi-Tools/UFiber.Configurator) - UFiber Configuration Tool.
-- [sowbug/mkeosimg](https://github.com/sowbug/mkeosimg) - Make a Ubiquiti EdgeOS image from a system tarball.
-- [WhiskeyTang0F0xtr0t/unifi](https://github.com/WhiskeyTang0F0xtr0t/unifi) - Random stuff for unifi devices.
-- [carverauto/serviceradar](https://github.com/carverauto/serviceradar) - Zero-trust Opensource Network Management and Observability Platform.
-- [jollyjinx/unifi2mqtt](https://github.com/jollyjinx/unifi2mqtt) - Use Ubiquiti Unifi API to get connect devices and clients information to mqtt.
-- [merlijntishauser/unifi-network-maps](https://github.com/merlijntishauser/unifi-network-maps) - Creates markdown/mermaid network maps using the unifi api.
 
 ---
 
