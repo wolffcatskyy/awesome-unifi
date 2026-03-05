@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <defs>
+    <linearGradient id="wifi-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0559C9"/>
+      <stop offset="100%" style="stop-color:#00A4E4"/>
+    </linearGradient>
+  </defs>
+  <!-- Wi-Fi signal arcs -->
+  <g transform="translate(60, 75)">
+    <path d="M-40,-35 A50,50 0 0,1 40,-35" stroke="url(#wifi-grad)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
+    <path d="M-28,-25 A35,35 0 0,1 28,-25" stroke="url(#wifi-grad)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+    <path d="M-16,-15 A20,20 0 0,1 16,-15" stroke="url(#wifi-grad)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <circle cx="0" cy="0" r="5" fill="url(#wifi-grad)"/>
+  </g>
+  <!-- Text -->
+  <text x="115" y="55" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="300" fill="#333333" letter-spacing="1">Awesome</text>
+  <text x="115" y="90" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="600" fill="#0559C9" letter-spacing="1">UniFi</text>
+</svg>
