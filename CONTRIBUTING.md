@@ -17,7 +17,7 @@ Please ensure your pull request adheres to the following guidelines:
 
 3. **Format**: Use the following format:
    ```markdown
-   - [project-name](https://github.com/owner/project-name) - A short description (X stars)
+   - [project-name](https://github.com/owner/project-name) - A short description.
    ```
 
 4. **Placement**: Add new items to the appropriate category in alphabetical order by project name.
@@ -26,7 +26,7 @@ Please ensure your pull request adheres to the following guidelines:
    - Concise (one line)
    - Focused on what the project does
    - Starting with a capital letter
-   - Without a period at the end
+   - Ending with a period
 
 ### Categories
 
