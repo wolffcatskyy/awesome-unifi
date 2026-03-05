@@ -1,8 +1,8 @@
+# Awesome UniFi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 <div align="center">
   <img width="400" src="media/logo.svg" alt="Awesome UniFi">
 </div>
-
-# Awesome UniFi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of awesome tools, libraries, and resources for UniFi and Ubiquiti networking products.
 
