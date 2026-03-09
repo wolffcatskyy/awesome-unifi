@@ -1,7 +1,7 @@
 # Awesome UniFi [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
-  <img width="400" src="media/logo.svg" alt="Awesome UniFi">
+  <a href="https://ui.com"><img width="400" src="media/logo.svg" alt="Awesome UniFi"></a>
 </div>
 
 > A curated list of awesome tools, libraries, and resources for UniFi and Ubiquiti networking products.
@@ -48,16 +48,15 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ## Official Resources
 
-- [Ubiquiti Community](https://community.ui.com/) - Official community forums.
-- [UniFi Design Center](https://design.ui.com/) - Official network design tool.
+- [Ubiquiti Community](https://community.ui.com) - Official community forums.
+- [UniFi Design Center](https://design.ui.com) - Official network design tool.
 - [UniFi Downloads](https://ui.com/download/releases/network-server) - Official software downloads.
-- [UniFi Help Center](https://help.ui.com/) - Official documentation.
+- [UniFi Help Center](https://help.ui.com) - Official documentation.
 
 ## API Libraries
 
 ### Python
 
-- [delian/pythonUnifiAPI](https://github.com/delian/pythonUnifiAPI) - Python3 port of UniFi-API-Browser API with small extensions.
 - [tnware/unifi-controller-api](https://github.com/tnware/unifi-controller-api) - A Python client library for interacting with Ubiquiti UniFi Network Controllers.
 - [ubiquiti-community/py-unifi](https://github.com/ubiquiti-community/py-unifi) - Python UniFi API Client.
 
@@ -117,15 +116,12 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [jcberthon/unifi-docker](https://github.com/jcberthon/unifi-docker) - UniFi Controller Docker image and compose.
 - [linuxserver/docker-unifi-network-application](https://github.com/linuxserver/docker-unifi-network-application) - LinuxServer.io Docker image for UniFi Network Application.
 - [Nico640/docker-unms](https://github.com/Nico640/docker-unms) - All-in-one Docker image for Ubiquiti UISP (formerly UNMS) - supports x86_64 and ARM.
-- [pducharme/UniFi-Video-Controller](https://github.com/pducharme/UniFi-Video-Controller) - Docker for UniFi-Video Controller.
 
 ## Monitoring & Metrics
 
 ### Prometheus & Grafana
 
-- [jessestuart/unifi_exporter](https://github.com/jessestuart/unifi_exporter) - Multiarch images for scraping Prometheus metrics from a UniFi Controller.
 - [jorgedlcruz/unifi-grafana](https://github.com/jorgedlcruz/unifi-grafana) - Grafana Dashboard for UniFi Cloud Key Gen2 - Using API to InfluxDB Script.
-- [mdlayher/unifi_exporter](https://github.com/mdlayher/unifi_exporter) - Prometheus exporter that exposes metrics from a Ubiquiti UniFi Controller and UniFi devices.
 - [timothystewart6/unpoller-unifi](https://github.com/timothystewart6/unpoller-unifi) - Ready-to-run Docker Compose stack for monitoring UniFi networks with UnPoller, Prometheus, and Grafana (third-party deployment stack).
 - [unpoller/dashboards](https://github.com/unpoller/dashboards) - Pre-built Grafana dashboards for visualizing UnPoller data (companion dashboards).
 - [unpoller/unpoller](https://github.com/unpoller/unpoller) - Collect ALL UniFi Controller, Site, Device and Client Data - Export to InfluxDB or Prometheus (main application).
@@ -155,7 +151,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [elad-bar/ha-edgeos](https://github.com/elad-bar/ha-edgeos) - Integration with EdgeOS (Ubiquiti).
 - [hassio-addons/addon-unifi](https://github.com/hassio-addons/addon-unifi) - UniFi Network Application - Home Assistant Community Add-ons.
 - [imhotep/hass-unifi-access](https://github.com/imhotep/hass-unifi-access) - UniFi Access Integration for Home Assistant.
-- [ioBroker.unifi](https://github.com/iobroker-community-adapters/ioBroker.unifi) - ioBroker adapter for UniFi network devices.
 - [patagonaa/homeassistant-unifi-led](https://github.com/patagonaa/homeassistant-unifi-led) - Control UniFi access point LEDs via Home Assistant.
 - [ruaan-deysel/ha-unifi-insights](https://github.com/ruaan-deysel/ha-unifi-insights) - Comprehensive Home Assistant custom integration for UniFi Network and Protect.
 - [sirkirby/unifi-network-rules](https://github.com/sirkirby/unifi-network-rules) - Manage, backup, and automate your UDM firewall policies in Home Assistant.
@@ -176,6 +171,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 - [bramstroker/UnifiMqttPublisher](https://github.com/bramstroker/UnifiMqttPublisher) - Publishes UniFi controller and AP statistics to a MQTT broker.
 - [dcramer/unifi-mqtt](https://github.com/dcramer/unifi-mqtt) - UniFi to MQTT bridge.
+- [ioBroker.unifi](https://github.com/iobroker-community-adapters/ioBroker.unifi) - ioBroker adapter for UniFi network devices.
 - [jollyjinx/unifi2mqtt](https://github.com/jollyjinx/unifi2mqtt) - Publish UniFi device and client information to MQTT.
 - [salanki/unifi-mqtt](https://github.com/salanki/unifi-mqtt) - WLAN Association / Disassociation events from UniFi Controller to MQTT publisher.
 
@@ -186,10 +182,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [ep1cman/unifi-protect-backup](https://github.com/ep1cman/unifi-protect-backup) - Python tool to backup UniFi event clips in realtime.
 - [hjdhjd/unifi-access](https://github.com/hjdhjd/unifi-access) - A nearly complete implementation of the UniFi Access API.
 - [keshavdv/unifi-cam-proxy](https://github.com/keshavdv/unifi-cam-proxy) - Enable non-Ubiquiti cameras to work with UniFi NVR.
-- [kk7ds/luvs](https://github.com/kk7ds/luvs) - Lightweight UniFi Video Server.
 - [petergeneric/unifi-protect-remux](https://github.com/petergeneric/unifi-protect-remux) - Converts Ubiquiti's proprietary .ubv files into standard MP4 files.
-- [selfhostedhome/unifi-video-gif-mqtt](https://github.com/selfhostedhome/unifi-video-gif-mqtt) - Watch your UniFi Video directory for new videos, convert to gif and notify over mqtt.
-- [yuppity/unifi-video-api](https://github.com/yuppity/unifi-video-api) - Python API for UniFi Video.
 
 ## UniFi Access
 
@@ -263,8 +256,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [etiennecollin/unifi-voucher-manager](https://github.com/etiennecollin/unifi-voucher-manager) - A touch-friendly and secure interface for streamlined creation and management of guest Wi-Fi vouchers.
 - [glenndehaan/unifi-voucher-site](https://github.com/glenndehaan/unifi-voucher-site) - UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers.
 - [PaintSplasher/unifi-voucher-service](https://github.com/PaintSplasher/unifi-voucher-service) - Simple one-click voucher printing for guests without UniFi Controller access.
-- [seanmavley/unifi-guest-bundle-check](https://github.com/seanmavley/unifi-guest-bundle-check) - Let UniFi Guests check voucher data bundle left.
-- [seanmavley/unifi-voucher-payment-server](https://github.com/seanmavley/unifi-voucher-payment-server) - UniFi Voucher Payment Server.
 
 ## Dream Machine Utilities
 
@@ -299,10 +290,8 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [Genghis1227/guide_eap_proxy](https://github.com/Genghis1227/guide_eap_proxy) - Instructions for AT&T bypass using EdgeRouter Lite.
 - [hungnguyenm/edgemax-acme](https://github.com/hungnguyenm/edgemax-acme) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter using DNS-01.
 - [j-c-m/ubnt-letsencrypt](https://github.com/j-c-m/ubnt-letsencrypt) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter.
-- [jaysoffian/eap_proxy](https://github.com/jaysoffian/eap_proxy) - Proxy EAP packets between interfaces on Linux devices such as the Ubiquiti Networks EdgeRouter and UniFi Security Gateway.
 - [Matthew1471/EdgeOS-API](https://github.com/Matthew1471/EdgeOS-API) - An API wrapper for Ubiquiti EdgeOS operating system.
 - [neilalexander/vyatta-cjdns](https://github.com/neilalexander/vyatta-cjdns) - A cjdns package for Ubiquiti EdgeOS and VyOS.
-- [photinus/ubnt-letsencrypt](https://github.com/photinus/ubnt-letsencrypt) - Let's Encrypt setup instructions for Ubiquiti Edgerouter Lite.
 - [sowbug/mkeosimg](https://github.com/sowbug/mkeosimg) - Make a Ubiquiti EdgeOS image from a system tarball.
 - [stevejenkins/UBNT-EdgeRouter-Example-Configs](https://github.com/stevejenkins/UBNT-EdgeRouter-Example-Configs) - Example config.boot files for UBNT EdgeRouters with Google, Comcast, and Charter.
 - [WaterByWind/edgeos-bl-mgmt](https://github.com/WaterByWind/edgeos-bl-mgmt) - Automated updating of EdgeOS firewall network-group to be used as source address blacklist.
