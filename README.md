@@ -315,3 +315,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+---
+
+*List curation and project selection by the maintainer. AI tools used for formatting, lint compliance, and alphabetical ordering.*
