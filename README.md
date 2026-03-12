@@ -284,7 +284,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [hungnguyenm/edgemax-acme](https://github.com/hungnguyenm/edgemax-acme) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter using DNS-01.
 - [j-c-m/ubnt-letsencrypt](https://github.com/j-c-m/ubnt-letsencrypt) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter.
 - [Matthew1471/EdgeOS-API](https://github.com/Matthew1471/EdgeOS-API) - API wrapper for the Ubiquiti EdgeOS operating system.
-- [neilalexander/vyatta-cjdns](https://github.com/neilalexander/vyatta-cjdns) - cjdns mesh networking package for Ubiquiti EdgeOS and VyOS.
+- [neilalexander/vyatta-cjdns](https://github.com/neilalexander/vyatta-cjdns) - Mesh networking via cjdns for Ubiquiti EdgeOS and VyOS.
 - [sowbug/mkeosimg](https://github.com/sowbug/mkeosimg) - Make a Ubiquiti EdgeOS image from a system tarball.
 - [stevejenkins/UBNT-EdgeRouter-Example-Configs](https://github.com/stevejenkins/UBNT-EdgeRouter-Example-Configs) - Example config.boot files for UBNT EdgeRouters with Google, Comcast, and Charter.
 - [WaterByWind/edgeos-bl-mgmt](https://github.com/WaterByWind/edgeos-bl-mgmt) - Automated updating of EdgeOS firewall network-group to be used as source address blacklist.
