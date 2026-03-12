@@ -43,6 +43,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [EdgeRouter / EdgeOS](#edgerouter--edgeos)
 - [MCP Servers](#mcp-servers)
 - [Guides & Documentation](#guides--documentation)
+- [Contributing](#contributing)
 
 ---
 
