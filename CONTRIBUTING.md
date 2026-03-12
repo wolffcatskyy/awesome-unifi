@@ -17,7 +17,7 @@ Please ensure your pull request adheres to the following guidelines:
 
 3. **Format**: Use the following format:
    ```markdown
-   - [project-name](https://github.com/owner/project-name) - A short description.
+   - [project-name](https://github.com/owner/project-name) - Short description of what it does.
    ```
 
 4. **Placement**: Add new items to the appropriate category in alphabetical order by project name.
