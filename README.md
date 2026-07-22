@@ -176,6 +176,8 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [trek-e/unifi-security-report](https://github.com/trek-e/unifi-security-report) - Containerized service that monitors UniFi network logs and delivers plain-English reports.
 - [wolffcatskyy/crowdsec-unifi-bouncer](https://github.com/wolffcatskyy/crowdsec-unifi-bouncer) - Install and persist the official CrowdSec firewall bouncer on UniFi OS devices.
 - [wolffcatskyy/crowdsec-unifi-parser](https://github.com/wolffcatskyy/crowdsec-unifi-parser) - CrowdSec parsers and iptables LOG rules for UniFi Dream Machines.
+- [wolffcatskyy/crowdsec-blocklist-import](https://github.com/wolffcatskyy/crowdsec-blocklist-import) - Import 120k+ IPs from 36 free threat feeds into CrowdSec decisions for UniFi.
+- [wolffcatskyy/crowdsec-unifi-suite](https://github.com/wolffcatskyy/crowdsec-unifi-suite) - One-command installer for CrowdSec + UniFi security stack (bouncer + parser + blocklist-import).
 
 ## DNS & DDNS
 
