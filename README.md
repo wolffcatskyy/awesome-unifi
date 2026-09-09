@@ -243,6 +243,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [bjeans/homelab-mcp](https://github.com/bjeans/homelab-mcp) - MCP servers for managing homelab infrastructure including UniFi networks.
 - [enuno/unifi-mcp-server](https://github.com/enuno/unifi-mcp-server) - MCP server that leverages the official UniFi API.
 - [jmasarweh/Unifi-Log-Insights](https://github.com/jmasarweh/Unifi-Log-Insights) - MCP server for querying parsed UniFi firewall logs, threat intelligence, and network analytics.
+- [KallistoX/mcp-unifi-applications](https://github.com/KallistoX/mcp-unifi-applications) - MCP server exposing the UniFi API documentation for Network, Protect, Site Manager and InnerSpace as queryable tools.
 - [sirkirby/unifi-mcp](https://github.com/sirkirby/unifi-mcp) - MCP server for the UniFi suite including Network, Protect, Access, and Drive.
 
 ## Guides & Documentation
