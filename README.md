@@ -87,6 +87,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [57/unifidash](https://github.com/57/unifidash) - CLI leveraging private gateway APIs for network telemetry, DPI, and topology.
 - [Art-of-WiFi/UniFi-API-browser](https://github.com/Art-of-WiFi/UniFi-API-browser) - Tool to browse data exposed by Ubiquiti's UniFi Controller API.
 - [Crosstalk-Solutions/unifi-toolkit](https://github.com/Crosstalk-Solutions/unifi-toolkit) - Suite of tools for UniFi network management.
+- [gitkodak/unifi-map](https://github.com/gitkodak/unifi-map) - Export topology as zoomable SVG, PDF or an editable draw.io diagram, with real device artwork.
 - [hyperb1iss/unifly](https://github.com/hyperb1iss/unifly) - Rust CLI and TUI for managing UniFi controllers via dual Integration and Legacy APIs with real-time WebSocket events.
 - [Ozark-Connect/NetworkOptimizer](https://github.com/Ozark-Connect/NetworkOptimizer) - Self-hosted performance optimization and security audit tool for UniFi Networks.
 - [scyto/docker-UnifiBrowser](https://github.com/scyto/docker-UnifiBrowser) - Dockerized version of the UniFi API Browser.
