@@ -1,5 +1,15 @@
 # Roadmap
 
+_Refreshed September 23, 2026. Plans, not promises: priorities can shift with user feedback._
+
+- Next: automate link checks, stale-project flags, and a monthly "new additions" section.
+- Then: add tested-with controller/firmware metadata for high-risk tools and split guides from software.
+- Later: search/filter companion site only after metadata is consistent.
+
+---
+
+## Earlier roadmap notes
+
 This document outlines the goals and next steps for the Awesome UniFi project.
 
 ## Current Status
