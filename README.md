@@ -203,7 +203,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ## Guest Portal & Vouchers
 
 - [Carlgo11/guest-portal](https://github.com/Carlgo11/guest-portal) - External UniFi guest portal.
-- [DJM0/unifi-voucher-generator](https://github.com/DJM0/unifi-voucher-generator) - Generate printable UniFi Hotspot vouchers via the Controller API.
 - [etiennecollin/unifi-voucher-manager](https://github.com/etiennecollin/unifi-voucher-manager) - Touch-friendly interface for creating and managing guest Wi-Fi vouchers.
 - [glenndehaan/unifi-voucher-site](https://github.com/glenndehaan/unifi-voucher-site) - Web platform for generating and managing UniFi network guest vouchers.
 
@@ -224,7 +223,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [renedis/ubnt-auto-fan-speed](https://github.com/renedis/ubnt-auto-fan-speed) - Automatic fan speed setting on UDM-PRO 1.8.5+ firmware.
 - [scyto/multicast-relay](https://github.com/scyto/multicast-relay) - Multicast-relay Docker for UniFi Dream Machines.
 - [TobyAnscombe/udm-setup](https://github.com/TobyAnscombe/udm-setup) - Guide for setting up IoT VLANs on the UniFi Dream Machine.
-- [whi-tw/macvlan-unifios](https://github.com/whi-tw/macvlan-unifios) - Macvlan kernel module for UniFi OS devices.
 - [xpherism/udm-proxy](https://github.com/xpherism/udm-proxy) - Caddy proxy for Ubiquiti UDM Pro.
 
 ## EdgeRouter / EdgeOS
