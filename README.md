@@ -47,6 +47,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 - [Ubiquiti Community](https://community.ui.com) - Official community forums.
 - [UniFi Design Center](https://design.ui.com) - Official network design tool.
+- [UniFi Developer API](https://developer.ui.com) - Official UniFi API documentation.
 - [UniFi Downloads](https://ui.com/download/releases/network-server) - Official software downloads.
 - [UniFi Help Center](https://help.ui.com) - Official documentation.
 
@@ -154,6 +155,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [hjdhjd/unifi-protect](https://github.com/hjdhjd/unifi-protect) - Comprehensive UniFi Protect API implementation in TypeScript.
 - [keshavdv/unifi-cam-proxy](https://github.com/keshavdv/unifi-cam-proxy) - Enable non-Ubiquiti cameras to work with UniFi NVR.
 - [petergeneric/unifi-protect-remux](https://github.com/petergeneric/unifi-protect-remux) - Converts Ubiquiti's proprietary .ubv files into standard MP4 files.
+- [uilibs/uiprotect](https://github.com/uilibs/uiprotect) - Python API for UniFi Protect (unofficial).
 
 ## UniFi Access
 
