@@ -65,7 +65,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ### Go
 
 - [ClifHouck/unified](https://github.com/ClifHouck/unified) - Unofficial UniFi Network and Protect API client and CLI written in Go.
-- [paultyng/go-unifi](https://github.com/paultyng/go-unifi) - UniFi Controller API SDK for Go.
+- [ubiquiti-community/go-unifi](https://github.com/ubiquiti-community/go-unifi) - UniFi Controller API SDK for Go.
 - [unpoller/unifi](https://github.com/unpoller/unifi) - Go library to grab data from a Ubiquiti UniFi Controller (companion library used by UnPoller).
 
 ### PHP
@@ -164,8 +164,8 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ## Network Automation & IaC
 
-- [paultyng/terraform-provider-unifi](https://github.com/paultyng/terraform-provider-unifi) - Terraform provider for UniFi.
 - [pulumiverse/pulumi-unifi](https://github.com/pulumiverse/pulumi-unifi) - Pulumi provider for UniFi network gear.
+- [ubiquiti-community/terraform-provider-unifi](https://github.com/ubiquiti-community/terraform-provider-unifi) - Terraform provider for UniFi.
 
 ## Security Tools
 
