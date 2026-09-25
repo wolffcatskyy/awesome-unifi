@@ -5,7 +5,10 @@
       "deployment": "on-device",
       "unifi_os": {
         "status": "works",
-        "versions": ["3", "4"],
+        "versions": [
+          "3",
+          "4"
+        ],
         "notes": "Installs and persists the CrowdSec firewall bouncer on UniFi OS consoles; documented on UniFi OS 3.x and 4.x devices including UCG Fiber.",
         "source": "manual",
         "verified_at": "2026-09-24"
@@ -15,18 +18,11 @@
       "deployment": "on-device",
       "unifi_os": {
         "status": "works",
-        "versions": ["3", "4"],
+        "versions": [
+          "3",
+          "4"
+        ],
         "notes": "iptables LOG rules and parsers for UniFi Dream Machines running UniFi OS.",
-        "source": "manual",
-        "verified_at": "2026-09-24"
-      }
-    },
-    "unifi-utilities/unifios-utilities": {
-      "deployment": "on-device",
-      "unifi_os": {
-        "status": "works",
-        "versions": ["3", "4"],
-        "notes": "On-device utilities for UDM-family consoles; project README documents UniFi OS 3.x and 4.x support.",
         "source": "manual",
         "verified_at": "2026-09-24"
       }
@@ -35,18 +31,11 @@
       "deployment": "on-device",
       "unifi_os": {
         "status": "works",
-        "versions": ["3", "4"],
+        "versions": [
+          "3",
+          "4"
+        ],
         "notes": "Policy-based split tunnel on UniFi OS gateways (UDM family).",
-        "source": "manual",
-        "verified_at": "2026-09-24"
-      }
-    },
-    "sierrasoftworks/tailscale-udm": {
-      "deployment": "on-device",
-      "unifi_os": {
-        "status": "works",
-        "versions": ["3", "4"],
-        "notes": "Runs Tailscale on UDM-family consoles; install script handles UniFi OS persistence across firmware updates.",
         "source": "manual",
         "verified_at": "2026-09-24"
       }
@@ -55,7 +44,10 @@
       "deployment": "on-device",
       "unifi_os": {
         "status": "works",
-        "versions": ["3", "4"],
+        "versions": [
+          "3",
+          "4"
+        ],
         "notes": "Let's Encrypt certificates for UniFi OS consoles; deployed on-device via unifios-utilities boot script.",
         "source": "manual",
         "verified_at": "2026-09-24"
@@ -65,8 +57,37 @@
       "deployment": "self-hosted",
       "unifi_os": {
         "status": "works",
-        "versions": ["3", "4"],
+        "versions": [
+          "3",
+          "4"
+        ],
         "notes": "Polls the controller API, so support tracks the UniFi Network Application rather than device firmware; documented against UniFi OS consoles.",
+        "source": "manual",
+        "verified_at": "2026-09-24"
+      }
+    },
+    "unifi-utilities/unifi-common": {
+      "deployment": "on-device",
+      "unifi_os": {
+        "status": "works",
+        "versions": [
+          "3",
+          "4"
+        ],
+        "notes": "On-device utilities for UDM-family consoles; project README documents UniFi OS 3.x and 4.x support.",
+        "source": "manual",
+        "verified_at": "2026-09-24"
+      }
+    },
+    "sierrasoftworks/tailscale-unifi": {
+      "deployment": "on-device",
+      "unifi_os": {
+        "status": "works",
+        "versions": [
+          "3",
+          "4"
+        ],
+        "notes": "Runs Tailscale on UDM-family consoles; install script handles UniFi OS persistence across firmware updates.",
         "source": "manual",
         "verified_at": "2026-09-24"
       }
