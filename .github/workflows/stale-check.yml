@@ -1,0 +1,34 @@
+name: Stale entry check
+
+on:
+  schedule:
+    - cron: '23 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Flag archived and stale repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/check-stale.mjs
+      - name: Open PR moving flagged entries to archived.md
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'chore: move archived/stale entries to archived.md'
+          title: 'chore: archived/stale entry sweep'
+          body: |
+            Automated weekly sweep: entries whose repos are archived or have had no
+            commits in 2+ years were moved from README.md to archived.md by
+            scripts/check-stale.mjs. Review before merging.
+          branch: bot/stale-sweep
+          delete-branch: true
