@@ -6,6 +6,7 @@
   ];
   const state = { q: '', os: '', deploy: '', cat: '', sort: 'stars', archived: false };
   let data = null;
+  let catIndex = {};
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g,
@@ -35,6 +36,11 @@
     return `<span class="badge ${cls}">UniFi OS ${u.status}${vers ? ' · ' + vers : ''}</span>`;
   }
 
+  function catLabel(id) {
+    const c = catIndex[id];
+    return c ? c.path.join(' › ') : id;
+  }
+
   function card(e) {
     const gh = e.github || {};
     const bits = [];
@@ -49,7 +55,7 @@
     const title = esc(e.name);
     return `<article class="card">
       <div class="card-head"><h2><a href="${esc(e.url)}">${title}</a></h2>
-        <span class="cat">${esc(e.category.path.join(' › '))}</span></div>
+        <span class="cat">${esc(catLabel(e.category))}</span></div>
       <p class="desc">${esc(e.description)}</p>
       <div class="meta">${bits.join('')}</div>
     </article>`;
@@ -65,7 +71,7 @@
     if (state.deploy && (e.deployment || 'unknown') !== state.deploy) return false;
     if (state.cat && !e.category.id.startsWith(state.cat)) return false;
     if (state.q) {
-      const hay = `${e.name} ${e.description} ${e.url} ${e.category.path.join(' ')}`.toLowerCase();
+      const hay = `${e.name} ${e.description} ${e.url} ${catLabel(e.category)}`.toLowerCase();
       if (!hay.includes(state.q)) return false;
     }
     return true;
@@ -115,6 +121,10 @@
     $('f-archived').addEventListener('change', (ev) => { state.archived = ev.target.checked; render(); });
   }
 
-  load().then((d) => { data = d; fillCategories(); bind(); render(); })
+  load().then((d) => {
+    data = d;
+    for (const c of d.categories) catIndex[c.id] = c;
+    fillCategories(); bind(); render();
+  })
     .catch((err) => { $('list').innerHTML = `<p class="empty">Failed to load data: ${esc(err.message)}</p>`; });
 })();
