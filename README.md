@@ -94,7 +94,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [scyto/docker-UnifiBrowser](https://github.com/scyto/docker-UnifiBrowser) - Dockerized version of the UniFi API Browser.
 - [stevejenkins/unifi-linux-utils](https://github.com/stevejenkins/unifi-linux-utils) - Helpful Linux/Unix scripts for admins of Ubiquiti UniFi wireless products.
 - [Unifi-Tools/UFiber.Configurator](https://github.com/Unifi-Tools/UFiber.Configurator) - Configuration tool for managing and provisioning Ubiquiti UFiber GPON devices.
-- [unifi-utilities/unifios-utilities](https://github.com/unifi-utilities/unifios-utilities) - Community collection of utilities and enhancements for UniFi OS.
+- [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) - Community collection of utilities and enhancements for UniFi OS.
 - [unofficial-unifi/unifi-pfsense](https://github.com/unofficial-unifi/unifi-pfsense) - Install the UniFi Controller software on pfSense and other FreeBSD systems.
 - [veteranbv/unifi-client-updater](https://github.com/veteranbv/unifi-client-updater) - Bulk update client names and metadata across UniFi sites.
 - [ZSamuels28/UnifiClientCheck-Docker](https://github.com/ZSamuels28/UnifiClientCheck-Docker) - Monitor UniFi networks for new devices with Telegram or Ntfy alerts.
@@ -132,7 +132,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 - [biofects/HA-Unifi-Speedtest](https://github.com/biofects/HA-Unifi-Speedtest) - Real-time speed test monitoring for UniFi networks in Home Assistant.
 - [elad-bar/ha-edgeos](https://github.com/elad-bar/ha-edgeos) - Home Assistant integration for Ubiquiti EdgeOS routers.
-- [hassio-addons/addon-unifi](https://github.com/hassio-addons/addon-unifi) - UniFi Network Application - Home Assistant Community Add-ons.
+- [hassio-addons/app-unifi](https://github.com/hassio-addons/app-unifi) - UniFi Network Application - Home Assistant Community Add-ons.
 - [imhotep/hass-unifi-access](https://github.com/imhotep/hass-unifi-access) - UniFi Access Integration for Home Assistant.
 - [patagonaa/homeassistant-unifi-led](https://github.com/patagonaa/homeassistant-unifi-led) - Control UniFi access point LEDs via Home Assistant.
 - [ruaan-deysel/ha-unifi-insights](https://github.com/ruaan-deysel/ha-unifi-insights) - Comprehensive Home Assistant custom integration for UniFi Network and Protect.
@@ -185,7 +185,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ## DNS & DDNS
 
-- [kashalls/external-dns-unifi-webhook](https://github.com/kashalls/external-dns-unifi-webhook) - External-DNS Webhook to manage UniFi DNS Records.
+- [home-operations/external-dns-unifi-webhook](https://github.com/home-operations/external-dns-unifi-webhook) - External-DNS Webhook to manage UniFi DNS Records.
 - [willswire/unifi-ddns](https://github.com/willswire/unifi-ddns) - Cloudflare DDNS (Dynamic DNS) support for UniFi OS.
 - [ymichel/dnsmasqAdBlockUDM](https://github.com/ymichel/dnsmasqAdBlockUDM) - Dnsmasq based Ad blocking for UniFi equipment (UDM-SE and UDM-PRO).
 
@@ -194,7 +194,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [evie-lau/Unifi-gateway-wpa-supplicant](https://github.com/evie-lau/Unifi-gateway-wpa-supplicant) - Set up wpa_supplicant on UniFi Gateways to bypass the AT&T modem.
 - [jamesog/tailscale-edgeos](https://github.com/jamesog/tailscale-edgeos) - Running Tailscale on Ubiquiti EdgeOS.
 - [peacey/split-vpn](https://github.com/peacey/split-vpn) - Policy-based split tunnel VPN for UniFi OS gateways.
-- [SierraSoftworks/tailscale-udm](https://github.com/SierraSoftworks/tailscale-udm) - Run Tailscale on your UniFi Dream Machine.
+- [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) - Run Tailscale on your UniFi Dream Machine.
 - [tusc/wireguard-kmod](https://github.com/tusc/wireguard-kmod) - WireGuard for UDM series routers.
 - [vchrizz/ER-wizard-WireGuard](https://github.com/vchrizz/ER-wizard-WireGuard) - WireGuard Wizard for Ubiquiti EdgeMAX Devices.
 - [WireGuard/wireguard-vyatta-ubnt](https://github.com/WireGuard/wireguard-vyatta-ubnt) - WireGuard for Ubiquiti Devices.
@@ -220,7 +220,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [fabianishere/udm-iptv](https://github.com/fabianishere/udm-iptv) - Helper tool for configuring routed IPTV on the UniFi Dream Machine (Pro).
 - [fabianishere/udm-kernel](https://github.com/fabianishere/udm-kernel) - Custom Linux kernels for the UniFi Dream Machine.
 - [fabianishere/udm-kernel-tools](https://github.com/fabianishere/udm-kernel-tools) - Tools for bootstrapping custom kernels on the UniFi Dream Machine.
-- [iceteaSA/ucg-max-fan-control](https://github.com/iceteaSA/ucg-max-fan-control) - UXG-Max/Fibre Dynamic Fan Control.
+- [iceteaSA/unifi-fan-control](https://github.com/iceteaSA/unifi-fan-control) - UXG-Max/Fibre Dynamic Fan Control.
 - [IngmarStein/unifi-sonos-doc](https://github.com/IngmarStein/unifi-sonos-doc) - How to configure your UniFi network for Sonos.
 - [johnstonjs/unifios-utils](https://github.com/johnstonjs/unifios-utils) - Shell utilities for managing services and configurations on UniFi OS.
 - [kchristensen/udm-le](https://github.com/kchristensen/udm-le) - Let's Encrypt support for Ubiquiti UniFi OS.
@@ -252,7 +252,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [beezly/unifi-apis](https://github.com/beezly/unifi-apis) - UniFi Network and Protect API OpenAPI specifications.
 - [jeffreykog/unifi-inform-protocol](https://github.com/jeffreykog/unifi-inform-protocol) - Reverse-engineered documentation of the inform protocol used by UniFi access points.
 - [MinisculeGirraffe/Tailscale-UDMPro](https://github.com/MinisculeGirraffe/Tailscale-UDMPro) - Guide to running Tailscale on a UDM(Pro).
-- [mzac/unifi-pfsense-tailscale](https://github.com/mzac/unifi-pfsense-tailscale) - Documentation on how to integrate UniFi with pfSense and Tailscale.
+- [mzac/unifi-debian-tailscale-bgp](https://github.com/mzac/unifi-debian-tailscale-bgp) - Documentation on how to integrate UniFi with pfSense and Tailscale.
 - [ubiquiti-community/unifi-api](https://github.com/ubiquiti-community/unifi-api) - OpenAPI Definition for UniFi Controller API.
 
 ---
