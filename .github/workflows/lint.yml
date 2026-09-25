@@ -34,7 +34,7 @@ jobs:
         with:
           args: >-
             --verbose --no-progress
-            --accept 403,429
+            --accept 200,204,301,302,307,308,403,429
             README.md archived.md CONTRIBUTING.md
           fail: true
         env:
