@@ -220,6 +220,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [fabianishere/udm-iptv](https://github.com/fabianishere/udm-iptv) - Helper tool for configuring routed IPTV on the UniFi Dream Machine (Pro).
 - [fabianishere/udm-kernel](https://github.com/fabianishere/udm-kernel) - Custom Linux kernels for the UniFi Dream Machine.
 - [fabianishere/udm-kernel-tools](https://github.com/fabianishere/udm-kernel-tools) - Tools for bootstrapping custom kernels on the UniFi Dream Machine.
+- [fbernier/udm-cake](https://github.com/fbernier/udm-cake) - CAKE traffic shaping for UniFi Dream Machine routers (SQM, latency control under load).
 - [iceteaSA/unifi-fan-control](https://github.com/iceteaSA/unifi-fan-control) - UXG-Max/Fibre Dynamic Fan Control.
 - [IngmarStein/unifi-sonos-doc](https://github.com/IngmarStein/unifi-sonos-doc) - How to configure your UniFi network for Sonos.
 - [johnstonjs/unifios-utils](https://github.com/johnstonjs/unifios-utils) - Shell utilities for managing services and configurations on UniFi OS.
