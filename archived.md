@@ -28,4 +28,3 @@ These projects were previously listed in the main [README](README.md) but have b
 
 - [alxwolf/ubios-cert](https://github.com/alxwolf/ubios-cert) - Manage SSL/TLS certificates with acme.sh for UbiOS firmwares. Archived by maintainer.
 - [kalenarndt/udmp-jumbo-frames](https://github.com/kalenarndt/udmp-jumbo-frames) - Shell script to configure jumbo frames on the UDM Pro. Archived by maintainer.
-- [wicol/macvlan-unifios](https://github.com/wicol/macvlan-unifios) - Macvlan kernel module for UniFi OS devices. Archived by maintainer; see [whi-tw/macvlan-unifios](https://github.com/whi-tw/macvlan-unifios) for an active fork.
