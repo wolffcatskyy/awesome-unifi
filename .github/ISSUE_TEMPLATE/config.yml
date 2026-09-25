@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CrowdSec UniFi Suite (installer)
+    url: https://github.com/wolffcatskyy/crowdsec-unifi-suite/issues
+    about: Installation problems like "CrowdSec binary not found after installation" belong here, not on the awesome list.
+  - name: crowdsec-unifi-bouncer
+    url: https://github.com/wolffcatskyy/crowdsec-unifi-bouncer/issues
+    about: Bugs with the UniFi firewall bouncer itself.
+  - name: crowdsec-blocklist-import
+    url: https://github.com/wolffcatskyy/crowdsec-blocklist-import/issues
+    about: Problems with blocklist imports, feeds, or the Docker image.
+  - name: crowdsec-unifi-parser
+    url: https://github.com/wolffcatskyy/crowdsec-unifi-parser/issues
+    about: Parser and iptables LOG rule issues.
