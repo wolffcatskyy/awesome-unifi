@@ -75,13 +75,10 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ### .NET / C#
 
-- [dotMorten/UnifiClient](https://github.com/dotMorten/UnifiClient) - .NET library for the Ubiquiti UniFi REST and WebSocket APIs.
 - [KoenZomers/UniFiApi](https://github.com/KoenZomers/UniFiApi) - API in .NET 9 to fetch data from an on premises Ubiquiti UniFi Controller.
-- [schwoi/UnifiClient](https://github.com/schwoi/UnifiClient) - .NET Standard wrapper library for the Ubiquiti UniFi Controller.
 
 ### Ruby
 
-- [hculap/unifi-api](https://github.com/hculap/unifi-api) - Ruby client for the UniFi Controller API.
 
 ## Controller & Management
 
@@ -92,8 +89,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [hyperb1iss/unifly](https://github.com/hyperb1iss/unifly) - Rust CLI and TUI for managing UniFi controllers via dual Integration and Legacy APIs with real-time WebSocket events.
 - [Ozark-Connect/NetworkOptimizer](https://github.com/Ozark-Connect/NetworkOptimizer) - Self-hosted performance optimization and security audit tool for UniFi Networks.
 - [scyto/docker-UnifiBrowser](https://github.com/scyto/docker-UnifiBrowser) - Dockerized version of the UniFi API Browser.
-- [stevejenkins/unifi-linux-utils](https://github.com/stevejenkins/unifi-linux-utils) - Helpful Linux/Unix scripts for admins of Ubiquiti UniFi wireless products.
-- [Unifi-Tools/UFiber.Configurator](https://github.com/Unifi-Tools/UFiber.Configurator) - Configuration tool for managing and provisioning Ubiquiti UFiber GPON devices.
 - [unifi-utilities/unifi-common](https://github.com/unifi-utilities/unifi-common) - Community collection of utilities and enhancements for UniFi OS.
 - [unofficial-unifi/unifi-pfsense](https://github.com/unofficial-unifi/unifi-pfsense) - Install the UniFi Controller software on pfSense and other FreeBSD systems.
 - [veteranbv/unifi-client-updater](https://github.com/veteranbv/unifi-client-updater) - Bulk update client names and metadata across UniFi sites.
@@ -101,10 +96,8 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 
 ## Docker Images
 
-- [GiuseppeGalilei/Unifi-Network-Application](https://github.com/GiuseppeGalilei/Unifi-Network-Application) - Easily deploy UniFi Network Application on Docker.
 - [goofball222/unifi](https://github.com/goofball222/unifi) - UniFi Docker Container.
 - [jacobalberty/unifi-docker](https://github.com/jacobalberty/unifi-docker) - UniFi Docker files.
-- [jcberthon/unifi-docker](https://github.com/jcberthon/unifi-docker) - UniFi Controller Docker image and compose.
 - [linuxserver/docker-unifi-network-application](https://github.com/linuxserver/docker-unifi-network-application) - LinuxServer.io Docker image for UniFi Network Application.
 - [Nico640/docker-unms](https://github.com/Nico640/docker-unms) - All-in-one Docker image for Ubiquiti UISP (formerly UNMS) - supports x86_64 and ARM.
 
@@ -115,7 +108,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [timothystewart6/unpoller-unifi](https://github.com/timothystewart6/unpoller-unifi) - Ready-to-run Docker Compose stack for monitoring UniFi networks with UnPoller, Prometheus, and Grafana (third-party deployment stack).
 - [unpoller/dashboards](https://github.com/unpoller/dashboards) - Pre-built Grafana dashboards for visualizing UnPoller data (companion dashboards).
 - [unpoller/unpoller](https://github.com/unpoller/unpoller) - Collect all UniFi Controller, site, device, and client data and export to InfluxDB or Prometheus.
-- [zygiss/snmp-exporter-unifi](https://github.com/zygiss/snmp-exporter-unifi) - Prometheus SNMP exporter generator and SNMP configs for UniFi access points.
 
 ### Zabbix
 
@@ -162,7 +154,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [hjdhjd/unifi-access](https://github.com/hjdhjd/unifi-access) - Comprehensive implementation of the UniFi Access API.
 - [keithah/unifi-access-airbnb](https://github.com/keithah/unifi-access-airbnb) - Integrates UniFi Access with Airbnb reservations using ICS file or Hostex API.
 - [matejgordon/unipyAccess](https://github.com/matejgordon/unipyAccess) - Python connector for UniFi Access.
-- [phamels/unifi_access_unlocker](https://github.com/phamels/unifi_access_unlocker) - Unlock UniFi Access doors using their own API.
 
 ## Network Automation & IaC
 
@@ -192,34 +183,22 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ## VPN & WireGuard
 
 - [evie-lau/Unifi-gateway-wpa-supplicant](https://github.com/evie-lau/Unifi-gateway-wpa-supplicant) - Set up wpa_supplicant on UniFi Gateways to bypass the AT&T modem.
-- [jamesog/tailscale-edgeos](https://github.com/jamesog/tailscale-edgeos) - Running Tailscale on Ubiquiti EdgeOS.
-- [peacey/split-vpn](https://github.com/peacey/split-vpn) - Policy-based split tunnel VPN for UniFi OS gateways.
 - [SierraSoftworks/tailscale-unifi](https://github.com/SierraSoftworks/tailscale-unifi) - Run Tailscale on your UniFi Dream Machine.
-- [tusc/wireguard-kmod](https://github.com/tusc/wireguard-kmod) - WireGuard for UDM series routers.
 - [vchrizz/ER-wizard-WireGuard](https://github.com/vchrizz/ER-wizard-WireGuard) - WireGuard Wizard for Ubiquiti EdgeMAX Devices.
 - [WireGuard/wireguard-vyatta-ubnt](https://github.com/WireGuard/wireguard-vyatta-ubnt) - WireGuard for Ubiquiti Devices.
 
 ## Backup Tools
 
-- [psitem/edgerouter-backup](https://github.com/psitem/edgerouter-backup) - EdgeRouter to Git repo backup scripts.
-- [zhangyoufu/unifi-backup-decrypt](https://github.com/zhangyoufu/unifi-backup-decrypt) - Decrypt UniFi Network Application backup (.unf to .zip).
 
 ## Guest Portal & Vouchers
 
-- [Carlgo11/guest-portal](https://github.com/Carlgo11/guest-portal) - External UniFi guest portal.
 - [etiennecollin/unifi-voucher-manager](https://github.com/etiennecollin/unifi-voucher-manager) - Touch-friendly interface for creating and managing guest Wi-Fi vouchers.
 - [glenndehaan/unifi-voucher-site](https://github.com/glenndehaan/unifi-voucher-site) - Web platform for generating and managing UniFi network guest vouchers.
 
 ## Dream Machine Utilities
 
-- [blackjid/inadyn-cloudflare](https://github.com/blackjid/inadyn-cloudflare) - Cloudflare Dynamic DNS backend for Inadyn - for use with UniFi Dream Machine / Pro.
-- [cdchris12/UDM-DNS-Fix](https://github.com/cdchris12/UDM-DNS-Fix) - Script for DHCP hostname resolution on UniFi Dream Machine Pro firmware.
-- [davidjenni/udm-pro-network](https://github.com/davidjenni/udm-pro-network) - UniFi UDM-Pro prosumer network configuration.
-- [dlk3/udm-hacks](https://github.com/dlk3/udm-hacks) - Collection of scripts and tweaks for the UniFi Dream Machine Pro.
 - [esmith443/Verizon-ONT-Bypass](https://github.com/esmith443/Verizon-ONT-Bypass) - Guide for bypassing the Verizon FiOS ONT with an Iszo XPON UNO on a UDM Pro.
 - [fabianishere/udm-iptv](https://github.com/fabianishere/udm-iptv) - Helper tool for configuring routed IPTV on the UniFi Dream Machine (Pro).
-- [fabianishere/udm-kernel](https://github.com/fabianishere/udm-kernel) - Custom Linux kernels for the UniFi Dream Machine.
-- [fabianishere/udm-kernel-tools](https://github.com/fabianishere/udm-kernel-tools) - Tools for bootstrapping custom kernels on the UniFi Dream Machine.
 - [fbernier/udm-cake](https://github.com/fbernier/udm-cake) - CAKE traffic shaping for UniFi Dream Machine routers (SQM, latency control under load).
 - [iceteaSA/unifi-fan-control](https://github.com/iceteaSA/unifi-fan-control) - UXG-Max/Fibre Dynamic Fan Control.
 - [IngmarStein/unifi-sonos-doc](https://github.com/IngmarStein/unifi-sonos-doc) - How to configure your UniFi network for Sonos.
@@ -228,17 +207,10 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [renedis/ubnt-auto-fan-speed](https://github.com/renedis/ubnt-auto-fan-speed) - Automatic fan speed setting on UDM-PRO 1.8.5+ firmware.
 - [scyto/multicast-relay](https://github.com/scyto/multicast-relay) - Multicast-relay Docker for UniFi Dream Machines.
 - [TobyAnscombe/udm-setup](https://github.com/TobyAnscombe/udm-setup) - Guide for setting up IoT VLANs on the UniFi Dream Machine.
-- [xpherism/udm-proxy](https://github.com/xpherism/udm-proxy) - Caddy proxy for Ubiquiti UDM Pro.
 
 ## EdgeRouter / EdgeOS
 
-- [britannic/blacklist](https://github.com/britannic/blacklist) - Blacklist and Adware Blocking for the Ubiquiti EdgeMax Router.
-- [darkgrue/Ubiquiti-DNSCrypt-Proxy-2-Configuration-Scripts](https://github.com/darkgrue/Ubiquiti-DNSCrypt-Proxy-2-Configuration-Scripts) - Support scripts for DNSCrypt-Proxy 2, dnsmasq, and DNSSEC on EdgeRouter.
 - [darkxst/erx-migration](https://github.com/darkxst/erx-migration) - EdgeRouter X migration scripts for installing or upgrading to OpenWrt.
-- [Genghis1227/guide_eap_proxy](https://github.com/Genghis1227/guide_eap_proxy) - Instructions for AT&T bypass using EdgeRouter Lite.
-- [hungnguyenm/edgemax-acme](https://github.com/hungnguyenm/edgemax-acme) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter using DNS-01.
-- [j-c-m/ubnt-letsencrypt](https://github.com/j-c-m/ubnt-letsencrypt) - Let's Encrypt setup instructions for Ubiquiti EdgeRouter.
-- [Matthew1471/EdgeOS-API](https://github.com/Matthew1471/EdgeOS-API) - API wrapper for the Ubiquiti EdgeOS operating system.
 - [sowbug/mkeosimg](https://github.com/sowbug/mkeosimg) - Make a Ubiquiti EdgeOS image from a system tarball.
 
 ## MCP Servers
@@ -251,8 +223,6 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 ## Guides & Documentation
 
 - [beezly/unifi-apis](https://github.com/beezly/unifi-apis) - UniFi Network and Protect API OpenAPI specifications.
-- [jeffreykog/unifi-inform-protocol](https://github.com/jeffreykog/unifi-inform-protocol) - Reverse-engineered documentation of the inform protocol used by UniFi access points.
-- [MinisculeGirraffe/Tailscale-UDMPro](https://github.com/MinisculeGirraffe/Tailscale-UDMPro) - Guide to running Tailscale on a UDM(Pro).
 - [mzac/unifi-debian-tailscale-bgp](https://github.com/mzac/unifi-debian-tailscale-bgp) - Documentation on how to integrate UniFi with pfSense and Tailscale.
 - [ubiquiti-community/unifi-api](https://github.com/ubiquiti-community/unifi-api) - OpenAPI Definition for UniFi Controller API.
 
