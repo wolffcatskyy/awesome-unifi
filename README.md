@@ -48,7 +48,7 @@ UniFi is a line of networking hardware and software by Ubiquiti Inc., including 
 - [Ubiquiti Community](https://community.ui.com) - Official community forums.
 - [UniFi Design Center](https://design.ui.com) - Official network design tool.
 - [UniFi Developer API](https://developer.ui.com) - Official UniFi API documentation.
-- [UniFi Downloads](https://ui.com/download/releases/network-server) - Official software downloads.
+- [UniFi Downloads](https://ui.com/download/unifi) - Official software downloads.
 - [UniFi Help Center](https://help.ui.com) - Official documentation.
 
 ## API Libraries
